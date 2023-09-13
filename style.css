@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('5073198.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+
+button.rounded {
+    border-radius:10px; 
+    border-width: 5px;
+    border-style: solid;
+
+}
+button {
+    border-radius: 10px;
+    cursor: pointer;
+}
+input {
+    background-color: #c4aeae57; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+a {
+    color: rgb(66, 12, 192);
+}
